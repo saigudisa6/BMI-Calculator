@@ -1,0 +1,146 @@
+*
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.btn-container-nav
+{
+    display: flex;
+    width: 100rem;
+    justify-content: space-between;
+    
+}
+
+/* nav{
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content:center;
+} */
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+
+
+.text-container, .scroll-container, .experiment
+{
+    height: 30vh;
+    width: 100vw;
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.experiment{
+    background-color: blue;
+    height: 20vh;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.experiment .text
+{
+    margin-right: 5rem;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.text a
+{
+   
+    color:black;
+}
+
+.text-container
+{  
+    transform: skew(-11turn, -9deg);
+    background-color: gold;
+    position: relative;
+
+}
+
+.scroll-container
+{
+    background-color: rgb(230, 55, 55);
+    transform: skew(-11turn, 9deg);
+    position: relative;
+}
+
+.slider
+{
+     width: 50rem;
+     height: 20rem;
+     /* transform: skew(11turn, -9deg); */
+     margin: 0;
+    /* height: 50rem;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slide
+{
+    margin:0;
+}
+
+.place-name
+{
+    text-align: right;
+}
+
+.quote
+{
+    line-height: 1.5;
+    color: gold;
+    font-weight: 600;
+}
+
+.opinion-from h6, .opinion h6
+{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+
+.btn-container
+{
+    display: flex;
+
+}
+.next
+{
+    background-color: black;
+    color: gold;
+    
+}
+
+.opinion
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#text{
+    /* text-align: center; */
+    /* transform: skew(11turn, 9deg); */
+    
+    width: 850px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 90px;
+    margin-bottom: 24px;
+    line-height: 1;
+}
+

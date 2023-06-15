@@ -1,0 +1,131 @@
+*
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin:0;
+}
+
+nav
+{
+    background-color: black;
+    border-style: solid;
+    border-color: gold;
+}
+
+.btn-container
+{
+    display: flex;
+    justify-content: space-around;
+    width: 994px;
+    
+}
+
+.btn-container a
+{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: 700;
+    color: blue;
+    text-decoration: none;
+}
+
+.top
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:1000px;
+    height: 35vh;
+    background-color: gold;
+}
+
+.title
+{
+    padding-bottom: 30.5px;
+    color: blue;
+    font-weight: 800;
+    font-size: 54px;
+    text-align: center;
+}
+
+.bottom
+{
+    background-color: rgb(230, 55, 55);
+    height: 55vh;
+    width: 1000px;
+}
+
+.footer
+{
+    height: 5.5vh;
+    width: 994px;
+    border-style: solid;
+    border-color:rgb(230, 55, 55);
+    background-color: black;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer a
+{
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.questions
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 12px;
+    gap: 24px;
+}
+
+.questions div
+{
+    color: gold;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text
+{
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+}
+
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.info-text
+{
+    text-align: right;
+}
+
+.info-text a{
+    color:rgb(214, 214, 8);
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+
+
